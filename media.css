@@ -1,0 +1,45 @@
+@media screen and (max-width:600px){
+    .hover{
+        grid-template-columns: repeat(2,1fr);
+        transform: translateY(-400px);
+
+    }
+    .div{
+        grid-template-columns: repeat(1fr);
+        margin-top: 700px;
+    }
+    .collection{
+        display: none;
+    }
+    .parent{
+        grid-template-columns: repeat( 1,1fr);
+        margin-top: 100px;
+
+    }
+    .dev2{
+        margin-left: 200px;
+    }
+    .dev3{
+        margin-left: 400px;
+    }
+    .w1{
+        display: flex;
+        margin-left: 200px;
+    }
+    nav i{
+        margin-left: 20px;
+    }
+    .circle{
+        transform: translateX(-80px);
+    }
+    .circle4{
+        transform: translateX(-80px);
+    }
+    .circle6{
+        transform: translateX(120px);
+        margin-left: 20px;
+    }
+    .box{
+        display: none;
+    }
+}
